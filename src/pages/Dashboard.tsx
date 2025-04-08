@@ -1,11 +1,9 @@
-import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { modules, testResults } from "../data/mockData";
 import { BookOpen, CheckCircle, XCircle } from "lucide-react";
 import Navbar from "../components/Navbar";
 
 export default function Dashboard() {
-	useEffect(() => {}, []);
 	return (
 		<div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
 			<div className="px-4 py-6 sm:px-0">
